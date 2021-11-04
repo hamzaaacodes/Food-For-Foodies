@@ -1,0 +1,46 @@
+/***************************************/
+/************** Sections ************/
+/************************************/
+
+
+/****** Section: Home ******/
+#home-section {
+    padding: 1px 10px;
+    height: 220px;
+}
+#home-section p {
+    font-size: 0.5rem;
+}
+/****** Section: Services ******/
+#services-section {
+    height: 780px;
+}
+
+/****** Section: Clients ******/
+#client-section {
+    height: 120px;
+}
+#clients {
+    flex-wrap: wrap;
+}
+#clients img{
+    height: 30px;
+}
+
+/****** Section: Contact ******/
+
+#contact-box {
+    padding-bottom: 10px;
+}
+
+/***********************************/
+/************** Footer ************/
+/********************************/
+
+footer {
+    padding: 4px 8px;
+}
+footer,
+footer a {
+    font-size: 0.6rem;
+}

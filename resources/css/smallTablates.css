@@ -1,0 +1,84 @@
+/***************************************/
+/************** Navigation ************/
+/************************************/
+
+/****** Navigation: Logo ******/
+#logo {
+    margin: 10px 15px;
+}
+#logo img {
+    height: 35px;
+    margin: 2px 35px;
+}
+/****** Navigation: List-items ******/
+nav ul li a {
+    padding: 3px 18px;
+    font-size: 0.8rem;
+}
+
+
+/***************************************/
+/************** Sections *************/
+/************************************/
+
+/****** Section: Home ******/
+#home-section {
+    padding: 1px 80px;
+    height: 310px;
+}
+#home-section p {
+    font-size: 0.8rem;
+}
+/****** Section: Services ******/
+#services-section {
+    height: 760px;
+}
+#services {
+    flex-wrap: wrap;
+}
+
+/****** Section: Clients ******/
+#client-section {
+    height: 200px;
+}
+#clients img{
+    height: 75px;
+}
+/****** Section: Contact ******/
+
+#contact-box {
+    padding-bottom: 20px;
+}
+#contact-box label {
+    font-size: 0.6rem;
+}
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 0.6rem;
+}
+/************************************/
+/************** Footer *************/
+/*********************************/
+footer,
+footer a {
+    font-size: 0.9rem;
+    padding: 6px 15px;
+}
+
+/******************************************/
+/*********** Utility Classes *************/
+/***************************************/
+
+.h-primary {
+    font-size: 1.8rem;
+    padding: 8px;
+}
+.h-secondary {
+    font-size: 1rem;
+}
+.btn {
+    font-size: 0.8rem;
+    padding: 1.2px 12px;
+}
